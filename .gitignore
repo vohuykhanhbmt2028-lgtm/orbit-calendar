@@ -1,0 +1,26 @@
+# Secrets — NEVER commit
+.env
+credentials.json
+token.json
+*.token
+
+# ORBIT runtime data (personal schedules, completion logs)
+*.orbit
+dated_events.json
+assignment_estimates.json
+completions.json
+settings.json
+schedule.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
